@@ -10,6 +10,7 @@ export class AppComponent {
   name : string;
   date : string;
   amount : string;
+  height : string;
 
   onNameChange(value:string){
     this.name = value
@@ -21,5 +22,7 @@ export class AppComponent {
   onAmountChange(value:string){
     this.amount = value
   }
-  
+  onHeightChange(value:string){
+    this.height = value
+  }
 }
